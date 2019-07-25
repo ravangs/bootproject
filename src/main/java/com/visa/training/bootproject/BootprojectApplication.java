@@ -8,16 +8,20 @@ import com.visa.training.bootproject.ui.ProductConsoleUI;
 
 @SpringBootApplication
 public class BootprojectApplication {
+	
+	
 
     public static void main(String[] args) {
 		/* ApplicationContext springContainer = */
     	
     	SpringApplication.run(BootprojectApplication.class, args);
 		
-    	/*
+		/*
 		 * ProductConsoleUI ui = springContainer.getBean(ProductConsoleUI.class);
 		 * ui.createProductWithUI();
 		 */
+		 
+		 
 
     }
 
